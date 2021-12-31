@@ -1,0 +1,107 @@
+body{
+    margin:0px;
+    padding:0px; 
+    background-color: #F0EBC7;
+}
+
+section{
+    position:relative; 
+    display:flex; 
+    flex-direction:column; 
+    align-items:center;  
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Noto Serif JP', serif;
+  }
+  
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-decoration-color: #B7CB95;
+    color:white; 
+  
+}
+
+/*wave1*/
+.wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(128% + 1.3px);
+    height: 290px;
+}
+
+.wave1 .shape-fill {
+    fill: #618E7D;
+}
+
+/*wave 2*/ 
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(146% + 1.3px);
+    height: 361px;
+}
+
+.wave2 .shape-fill {
+    fill: #618E7D;
+}
+
+
+#main{
+    padding: 0px;
+    width:100%; 
+    background:linear-gradient(180deg, #7FA999 37.94%, rgba(145, 174, 146, 0.494407) 63.03%, rgba(237, 253, 237, 0.494407) 97.13%);
+    height:100%; 
+}
+#block{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 500;
+    color:white;
+}
+
+.navbar{ 
+    display:flex; 
+
+    margin-left: 50%;
+    margin-top: 90px;
+}
+.nav-logo{
+    width: 4em;
+}
+
+.nav-item{
+    font-size: 1.2em;
+
+}
+#intro{
+    background:#618E7D; 
+}
+
+#project{
+    min-height:900px;
+}
