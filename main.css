@@ -1,15 +1,14 @@
 body{
     margin:0px;
-    padding:0px; 
+    padding:0px;
     background-color: #F0EBC7;
 }
 
 section{
-    position:relative; 
-    display:flex; 
-    flex-direction:column; 
-    align-items:center;  
-
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 a{
@@ -17,13 +16,13 @@ a{
     color:white;
     font-family: 'Noto Serif JP', serif;
   }
-  
+
 a:hover{
     text-decoration: underline;
     text-decoration-thickness: 0.2em;
     text-decoration-color: #B7CB95;
-    color:white; 
-  
+    color:white;
+
 }
 
 /*wave1*/
@@ -40,15 +39,15 @@ a:hover{
 .wave1 svg {
     position: relative;
     display: block;
-    width: calc(128% + 1.3px);
-    height: 290px;
+    width: calc(125% + 1.3px);
+    height: 144px;
 }
 
 .wave1 .shape-fill {
     fill: #618E7D;
 }
 
-/*wave 2*/ 
+/*wave 2*/
 .wave2 {
     position: absolute;
     top: 0;
@@ -56,14 +55,13 @@ a:hover{
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
 .wave2 svg {
     position: relative;
     display: block;
-    width: calc(146% + 1.3px);
-    height: 361px;
+    width: calc(124% + 1.3px);
+    height: 156px;
 }
 
 .wave2 .shape-fill {
@@ -73,9 +71,9 @@ a:hover{
 
 #main{
     padding: 0px;
-    width:100%; 
+    width:100%;
     background:linear-gradient(180deg, #7FA999 37.94%, rgba(145, 174, 146, 0.494407) 63.03%, rgba(237, 253, 237, 0.494407) 97.13%);
-    height:100%; 
+    height:100%;
 }
 #block{
     margin-left: 5px;
@@ -83,12 +81,17 @@ a:hover{
     font-weight: 500;
     color:white;
 }
+.nav{
+  display:block;
+  width:100%;
+  margin-top: 100px;
+  z-index: 1000;
+}
 
-.navbar{ 
-    display:flex; 
+#navbar{
+    display:flex;
+    padding-left: 75%;
 
-    margin-left: 50%;
-    margin-top: 90px;
 }
 .nav-logo{
     width: 4em;
@@ -98,10 +101,60 @@ a:hover{
     font-size: 1.2em;
 
 }
+/*second part introduction part*/
 #intro{
-    background:#618E7D; 
+    padding-top: 100px;
+    padding-bottom:100px; 
+    background:#618E7D;
+    display:flex;
+}
+.introduction{
+  float:left;
+  display:flex;
 }
 
+.portrait{
+  border-radius:8px;
+  width:480px;
+  height:480px;
+  margin-right:50px;
+  margin-top:50px;
+}
+.content{
+  color:white;
+  margin-left: 30px;
+}
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #B7CB95 30%);
+}
+
+.content h1{
+  font-size: 2em;
+}
+.intro_text{
+  display:block;
+  width:550px;
+  font-size: 1.2em;
+}
+ .type{
+  font-weight:900;
+}
+.button{
+  width:180px;
+  height:30px;
+  font-size: 1em;
+  border-radius: 5px;
+  border-width: medium;
+  color:white;
+  background-color: transparent;
+  border: solid white;
+}
+.button:hover{
+  background-color: #B7CB95;
+  border:none;
+}
+
+/*third part project part*/
 #project{
     min-height:900px;
 }

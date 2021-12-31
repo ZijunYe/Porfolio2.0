@@ -13,9 +13,8 @@
 }
 @media screen and (min-width: 500px) {
   .container {
-    flex-direction: row;
+    flex-direction:row;
   }
-  
 }
 
 #animation {
@@ -25,9 +24,8 @@
 }
 @media screen and (min-width: 800px) {
   #animation {
-    height: 70%;
+    height: 50%;
   }
-
 
 }
 
@@ -37,26 +35,43 @@ header {
   width: 100%;
   text-align: left;
   box-sizing: border-box;
+  padding-left: 80px;
 
 }
 
 
 .text p {
-    color:white; 
-    font-size: 3em; 
+    color:white;
+    font-size: 3em;
     font-weight: 900;
     display: inline-block;
     vertical-align: top;
     margin: 0;
     padding-bottom: 150px;
+
   }
-  
+
+  @media screen and (max-width: 800px) {
+    .text p {
+      font-size: 2em;
+      padding-bottom:200px;
+
+    }
+    .container{
+      display:block;
+    }
+    header{
+      padding-left: 0px;
+    }
+
+  }
+
   .word {
     position: absolute;
     width: 200px;
     opacity: 0;
   }
-  
+
   .letter {
     display: inline-block;
     position: relative;
@@ -64,60 +79,29 @@ header {
     transform: translateZ(25px);
     transform-origin: 50% 50% 25px;
   }
-  
+
   .letter.out {
     transform: rotateX(90deg);
     transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
-  
+
   .letter.behind {
     transform: rotateX(-90deg);
   }
-  
+
   .letter.in {
     transform: rotateX(0deg);
     transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
-  
+
   .color1 {
     color: #fffad5;
   }
-  
+
   .color2 {
     color: #eeffd2;
   }
-  
+
   .color3 {
     color: #62827C;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
