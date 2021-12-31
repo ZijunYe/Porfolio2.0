@@ -36,7 +36,9 @@ header {
   text-align: left;
   box-sizing: border-box;
   padding-left: 80px;
-
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay:1s;
+  animation-delay: 1s;
 }
 
 

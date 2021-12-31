@@ -4,15 +4,19 @@
   <meta charset="UTF-8">
   <title>Zijun Ye</title>
    <link rel="icon" href="source/logo/windowlogo.png">
-  <link rel="stylesheet" href="./style.css">
-   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/animation.css">
+
+   <!--icon-->
+<script src="https://kit.fontawesome.com/7211adfcf2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
 
 <section id="main">
   <div class="nav">
-    <div id= "navbar">
+    <div id= "navbar" class="animate fadeInUp">
       <p><a href="#projects" class= "nav-item">Project</a></p>
       <p id="block"> | </p>
       <p><a href="about.html" class="nav-item"> About</a></p>
@@ -101,7 +105,7 @@
       </g>
     </g>
   </svg>
-  <header class="text">
+  <header class="text animate fadeInUp">
                    <p>Hi, I am&nbsp</p>
                    <p>
                    <span class="word color1"> Zijun.</span>
@@ -128,8 +132,8 @@
           <p>
             Hello! I am Zijun Ye(she/her/hers).I am second year Computer Science student at University of Ottawa.
             I am passionate about web development, design and user experience.<br>
-            Feel free to connect with me on <a href="https://www.linkedin.com/in/zijunye/">Linkedin</a>,
-            check out my project on <a href="">Github</a>, or <a href="mailto:zye072@uottawa.ca">email</a> me:)
+            Feel free to connect with me on <a class="link" href="https://www.linkedin.com/in/zijunye/">Linkedin</a>,
+            check out my project on <a class="link" href="https://github.com/ZijunYe">Github</a>, or <a class="link" href="mailto:zye072@uottawa.ca">email</a> me:)
           </p>
           <span class="type">💻Coding—</span><p class="technicalSkill">Java, Python, C++, Javascript, HTML/CSS</p>
           <div class="technicalSkill"><span class="type">🛠Tools—</span><p>Figma, Adobe Photoshop, Bootstrap, Git/Github, iMovie</p></div>
@@ -150,7 +154,16 @@
   this is project
 </section>
 
+<section id=footer>
+     <hr>
+     <div class="contact">
+       <a href="https://www.linkedin.com/in/zijunye/"class="fa fa-linkedin"></a>
+       <a href="https://github.com/ZijunYe"class="fa fa-github"></a>
+       <a href="mailto:zye072@uottawa.ca"class="fa fa-envelope"></a>
+     </div>
+     <p class="copyright">Made with ❤ by Zijun Ye © 2021</p>
 
+   </section>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script src="javascript/tree.js"></script>
 
