@@ -49,14 +49,12 @@ header {
     display: inline-block;
     vertical-align: top;
     margin: 0;
-    padding-bottom: 150px;
 
   }
 
   @media screen and (max-width: 800px) {
     .text p {
       font-size: 2em;
-      padding-bottom:200px;
 
     }
     .container{
@@ -106,4 +104,30 @@ header {
 
   .color3 {
     color: #62827C;
+  }
+
+
+  .quote{
+    font-size: 1.5em;
+    color:white;
+    margin-right: 100px;
+
+  }
+  @media screen and (max-width: 800px) {
+    .quote{
+      font-size: 1.5em;
+      padding-bottom: 100px;
+      margin-right: 120px;
+    }
+
+  }
+
+  @media screen and (max-width: 1000px) {
+    .quote{
+      font-size: 1em;
+      padding-bottom: 100px;
+      margin-right: 120px;
+      color:#62827C;
+    }
+
   }
