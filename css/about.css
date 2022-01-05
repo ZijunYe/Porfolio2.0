@@ -106,6 +106,7 @@ a:hover{
 
 #content p{
   width: 800px;
+  font-size: 1.2em; 
 }
 
 #content img:hover{

@@ -1,7 +1,8 @@
 body{
     margin:0px;
     padding:0px;
-    background-color: #F0EBC7;
+    background-color: white;
+
 }
 
 section{
@@ -150,6 +151,7 @@ a:hover{
 .intro_text{
   display:block;
   width:550px;
+  font-family: 'Urbanist', sans-serif;
   font-size: 1.2em;
 }
 .link{
@@ -175,14 +177,25 @@ a:hover{
   border:none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1000px) {
+  .portrait{
+    margin-right: 10px;
+  }
+  .intro_text{
+    margin-left: 0px;
+    width:500px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
   .portrait{
     width:240px;
     height:240px;
-    margin-left: 40px;
+    padding-left:30px;
   }
   .content{
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   .intro_text{
     width:300px;
@@ -194,6 +207,92 @@ a:hover{
 #project{
     padding-top:100px;
     min-height:900px;
+    overflow:hidden;
+
+
+}
+
+.project{
+  margin-left: 100px;
+  margin-right:100px;
+  background-color: #DBEADB;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding:50px;
+  display:flex;
+}
+
+
+.project h1{
+  font-size: 2.5em;
+}
+.project p{
+  font-size: 1.2em;
+  font-family:sans-serif;
+}
+
+.project-intro{
+  margin-top:30px;
+}
+.project img{
+  width:50%;
+  transition: all .2s ease-in-out;
+}
+
+/*.project:nth-child(odd) img{
+  order:2;
+}*/
+
+.project img:hover{
+  transform: scale(1.1);
+}
+
+.check-project{
+  width:180px;
+  height:45px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  color:white;
+  font-family:sans-serif;
+  border: none;
+  background-color: #62827C;
+  transition: background-color 0.5s ease;
+}
+
+.check-project:hover{
+  background-color: #628F5F;
+
+}
+
+.tag1{
+  background-color:#F7FDD3;
+  border-radius: 5px;
+}
+
+.tag2{
+  background-color: #FAECCC;
+    border-radius: 5px;
+}
+
+.tag3{
+  background-color: #FAE3DE;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .project{
+    display:block;
+  }
+  .project img{
+    width:100%;
+  }
+  .project h1{
+    font-size: 2em;
+  }
+
+
 }
 
 /*fourth part footer*/
