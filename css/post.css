@@ -137,7 +137,7 @@ h2{
 
 .overview-content p{
   font-family:sans-serif;
-  width:40%;
+  width:60%;
   margin-left: 6em;
   line-height: 2em;
   font-size:1em;
@@ -158,12 +158,18 @@ h2{
   }
 
 }
+@media only screen and (min-width: 1500px){
+  .overview-content p{
+    width:80%;
+
+  }
+}
 
 
 /*mapping*/
 #workflow{
   margin-top: 10em;
-  margin: 20%;
+  margin: 10% 20% 5% 20%;
 }
 .flow1{
   width:100%;
@@ -174,13 +180,12 @@ h2{
 
 /*demo prototype*/
 #screens{
-  margin-top: 10em;
-  margin-left: 300px;
+  margin: 5% 20% 5% 20%;
 }
 
 .img1, .img2, .img3, .img4{
-  width:50em;
-  margin-bottom: 5em;
+  width:100%;
+  margin-bottom:20px;
 }
 
 /*footer*/
