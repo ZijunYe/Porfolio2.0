@@ -5,84 +5,95 @@
     <title>Zijun Ye</title>
      <link rel="icon" href="source/logo/windowlogo.png">
     <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#introduction">Introduction</a>
-      <a href="#overview">Overview</a>
-      <a href="#workflow">Workflow</a>
-      <a href="#screens">Screens</a>
-    </div>
 
-    <div class="navbar" id="nav">
-        <div class="nav-item">
-          <span onclick="openNav()"><img  class="icon"src="source/icon/Sort.png"</span>
-          <img class="logo" src="source/icon/logoNoBg.png">
-        </div>
+
+    <section class="navbar">
+          <a href="index.html"><img class="logo" src="source/icon/logoNoBg.png"></a>
           <div class="nav-item">
-            <p><a href="index.html">Work </a></p>
-            <p><a href="about.html"> About</a></p>
+            <p><a href="index.html">Home &nbsp</a></p>
+            <p><a href="about.html">About</a></p>
           </div>
-      </div>
+      </section>
 
     <section id="intro">
       <div class="projectName">
-        <h1 class="title">Brightspace</h1>
-        <p class="intro">A concept design for University Online Class System</p>
+        <h1 class="title" data-aos="fade-down">University DashBoard</h1>
+        <p class="intro" data-aos="fade-down">A concept design for University Online Class System</p>
+      </div>
+      <div class="briefView">
+        <div class="item1 animate fadeInLeft">
+          <h5>PROJECT</h5>
+          <p>DashBoard Design</p>
+        </div>
+        <div class="item2 animate fadeInLeft">
+          <h5>DURATION</h5>
+          <p>June 6 - 19, 2021<br>(2 weeks)</p>
+        </div>
+        <div class="item3 animate fadeInLeft">
+          <h5>ROLE</h5>
+          <p>Interface Design,<br>Wireframing, Prototying</p>
+        </div>
+        <div class="item4 animate fadeInLeft">
+          <h5>TOOLS</h5>
+          <p>Adobe Photoshop, Figma</p>
+        </div>
       </div>
 
-      <div class="briefView">
-        <section>
-          <h5>PROJECT</h5>
-          <p>University Brightspace</p>
-        </section>
-        <section>
-          <h5>DURATION</h5>
-          <p>June 6 - 19,2021(2 weeks)</p>
-        </section>
-        <section>
-          <h5>ROLE</h5>
-          <p>Interface Design, Wireframing,Prototying</p>
-        </section>
-        <section>
-          <h5>TOOLS</h5>
-          <p>Adobe Photoshop,Figma</p>
-        </section>
-      </div>
+
     </section>
-    <section id="introduction" class="hide">
-          <p>Since pandamic start, students spend more time online to access study material, keep tracking grades
+
+    <section id="introduction">
+      <p>Since pandamic start, students spend more time online to access study material, keep tracking grades
           ,and handling assignment,test etc. Brightspace is one of the popular online learning management systems for University
         in Canada. It optimize the communication and educational environment for students and professors in the online class.</p>
     </section>
+
     <section id="overview">
-    <img class="gif" src="image/prototying/brightspace/brightspace.gif">
-    <div class="overview-content hide">
-      <h2>Overview</h2>
-      <p>After first year university online study, I have some ideas to creates
-      better version of brightspace, or brightspace app; because current version of brightspace sometime isn't easy to find
-     course material, grades, assignment feedback and the course progress status.I also discovered most of of were struggling with the same issues I found.
-     Therefore,I challenege myself to redesign brightspace.<br><br>
-     I mainly focus on the grades page, welcome page and course feedback.</p>
-    </div>
+        <img class="gif" src="source/project/universityDashBoard/DashBoard.gif">
+        <div class="overview-content">
+          <h2>Overview</h2>
+          <p>After first year university online study, I have some ideas to creates
+          better version of brightspace, or brightspace app; because current version of brightspace sometime isn't easy to find
+         course material, grades, assignment feedback and the course progress status.I also discovered most of of were struggling with the same issues I found.
+         Therefore,I challenege myself to redesign brightspace.<br><br>
+         I mainly focus on the grades page, welcome page and course feedback.</p>
+        </div>
   </section>
 
 
   <section id="workflow">
     <h2>Mapping</h2>
-    <img src="image/prototying/brightspace/flow1.png"class="flow1">
-    <img src="image/prototying/brightspace/flow2.png" class="flow2">
+    <img src="source/project/universityDashBoard/flow1.png"class="flow1">
+    <img src="source/project/universityDashBoard/flow2.png" class="flow2">
   </section>
 
   <section id="screens">
-    <img class="img1"src="image/prototying/brightspace/display3.png">
-    <img class="img2" src="image/prototying/brightspace/display4.png">
-    <img class="img3" src="image/prototying/brightspace/display1.png">
-    <img class="img4" src="image/prototying/brightspace/display2.png">
+    <h2>Prototype</h2>
+    <img class="img1"src="source/project/universityDashBoard/desktopView.png">
+    <img class="img2" src="source/project/universityDashBoard/gradingSection.png">
+    <img class="img3" src="source/project/universityDashBoard/checkMarkSection.png">
+    <img class="img4" src="source/project/universityDashBoard/otherSection.png">
+
   </section>
     <section id="footer">
-      <a href="index.html"><img src="image/icon/Homeicon.png"></a>
+      <div>
+        <a class="last-project" href="index.html">
+          <img src="source/icon/Arrow_left.png">
+          <h2>Sissi Bakery</h2>
+        </a>
+        <a class="home" href="index.html"><img src="source/icon/Home.png"></a>
+          <a class="next-project"href="index.html">
+            <h2>Byblos Mobile</h2>
+            <img src="source/icon/Arrow_right.png">
+          </a>
+
+
+      </div>
+
       <p class="copyright">© 2021 Zijun Ye. All rights reserved.</p>
     </section>
 
@@ -91,5 +102,9 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="javascript/project.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

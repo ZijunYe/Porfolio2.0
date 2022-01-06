@@ -99,6 +99,7 @@ a:hover{
   padding-top: 100px;
   min-width: 900px;
   color:#555F63;
+  line-height: 2em; 
 }
 .paragraph1, .paragraph2, .paragraph3{
   display:flex;
@@ -106,7 +107,7 @@ a:hover{
 
 #content p{
   width: 800px;
-  font-size: 1.2em; 
+  font-size: 1.2em;
 }
 
 #content img:hover{

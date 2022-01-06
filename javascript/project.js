@@ -5,20 +5,20 @@ const overview =document.querySelector(".overview-content");
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 20) {
+	  if (scroll > 10) {
 	    $(".navbar").css("background" , "#FFF");
       $(".navbar").css("filter" , "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))");
 	  }else{
-		  $(".navbar").css("background" , "#F2F6F9");
+		 $(".navbar").css("background" , "rgba(219, 227, 205, 0.58)");
       $(".navbar").css("filter" , "none");
 	  }
-    if(scroll >50){
-      show(introduction);
-    }
+    //if(scroll >50){
+      //show(introduction);
+    //}
 
-    if(scroll >600){
-      show(overview);
-    }
+    //if(scroll >600){
+    //  show(overview);
+    //}
 
   })
 })
