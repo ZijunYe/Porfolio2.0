@@ -226,4 +226,19 @@ h2{
     padding-left: 80px;
     padding-right:80px;
   }
+
+  #workflow h2{
+    text-align: center;
+  }
+
+  #screens h2{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home{
+    padding-left: 20px;
+    padding-right:20px;
+  }
 }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zijun Ye</title>
+     <link rel="icon" href="source/logo/windowlogo.png">
+    <link rel="stylesheet" href="css/androidapp.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+
+
+    <section class="navbar">
+          <a href="index.html"><img class="logo" src="source/icon/logoNoBg.png"></a>
+          <div class="nav-item">
+            <p><a href="index.html">Home &nbsp</a></p>
+            <p><a href="about.html">About</a></p>
+          </div>
+      </section>
+
+    <section id="intro">
+      <div class="projectName">
+        <h1 class="title" data-aos="fade-down">Byblos Mobile</h1>
+        <p class="intro" data-aos="fade-down">Android Mobile Application</p>
+      </div>
+      <div class="briefView">
+        <div class="item1 animate fadeInLeft">
+          <h5>PROJECT</h5>
+          <p>Android App</p>
+        </div>
+        <div class="item2 animate fadeInLeft">
+          <h5>DURATION</h5>
+          <p>Sept - Dec, 2021<br>(4 months)</p>
+        </div>
+        <div class="item3 animate fadeInLeft">
+          <h5>ROLE</h5>
+          <p>Interface Design,<br>Backend, Database setup</p>
+        </div>
+        <div class="item4 animate fadeInLeft">
+          <h5>TOOLS</h5>
+          <p>Android Studio, Firebase Database</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="introduction">
+      <p>  The project of class introduction of software engineering was done by a team of 5 people.
+        This application implements some basic functionalities of services offered by a car rental company called Byblos to its residents. </p>
+    </section>
+
+    <section id="overview">
+        <img class="gif" data-aos="fade-down" src="source/project/androidapp/androidApp.png">
+        <div class="overview-content">
+          <h2>Overview & Mapping</h2>
+          <div class="overview-content2">
+            <p>
+              The app has three types of user: administrator, employee(service provider), and user. Based on the project description, we build the system domain model to help us to understand the relationship.
+              The class diagram has limited user interface and mainly focuses on the functionality.
+            </p>
+            <img src="source/project/androidapp/uml.png"class="uml" data-aos="fade-down">
+          </div>
+        </div>
+
+  </section>
+
+
+  <section id="workflow">
+    <h2>Functionality & Demo </h2>
+    <div class="demo" data-aos="fade-up">
+      <img class="img1"src="source/project/androidapp/signup.gif">
+      <div class="content">
+        <span> Login/Signup </span>
+        <p> User able to create their account by choose to be Employee or customer, but the administrator account is preset account.
+        Also when user login to their account, user need to select their role. All input section has the validation; once the password matched with
+      the database record, user are able to see the welcome page with their username.  </p>
+
+      </div>
+
+    </div>
+    <div class="demo" data-aos="fade-up">
+      <img class="img1"src="source/project/androidapp/admin.gif">
+      <div class="content">
+        <span>User#1: Administrator </span>
+        <p>The features of administrator section are: able to create service, remove service, and edit service.
+        The administrator also able to delete all exist customer and employee account. </p>
+
+      </div>
+
+    </div>
+
+    <div class="demo" data-aos="fade-up">
+      <img class="img2"src="source/project/androidapp/employee.gif">
+      <div class="content">
+        <span>User#2: Service Provider </span>
+        <p>We assume that service provider as branch; only one account per branch. The features of service provider section are: able to select services that provided(from set of all available service),
+        select the service working hours of the branch, and edit the details information of the branch(address,email,branch name,phone number). Once the branch received the requests from customer, service provider are able to
+      view the requests, and either approve or reject each requests.  </p>
+      </div>
+
+    </div>
+
+    <div class="demo" data-aos="fade-up">
+      <img class="img2"src="source/project/androidapp/customer.gif">
+      <div class="content">
+        <span>User#3: Customer </span>
+        <p>The main feature of customer section is able search service by address/type of service provided/working hour.
+        If customer decided to make purchase, they able to select the target branch and fill the required information to make service request.
+      After the request done, customer also able to rate and give feed for the branch. </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="screens">
+    <h2>Screening</h2>
+    <img class="img1"src="source/project/androidapp/admin.jpg">
+    <img class="img2" src="source/project/androidapp/customer.jpg">
+    <img class="img3" src="source/project/androidapp/employee.jpg">
+
+  </section>
+    <section id="footer">
+      <div>
+        <a class="last-project" href="index.html">
+          <img src="source/icon/Arrow_left.png">
+          <h2>Sissi Bakery</h2>
+        </a>
+        <a class="home" href="index.html"><img src="source/icon/Home.png"></a>
+          <a class="next-project"href="DashboardProject.html">
+            <h2>University Dashboard</h2>
+            <img src="source/icon/Arrow_right.png">
+          </a>
+
+
+      </div>
+
+      <p class="copyright">© 2021 Zijun Ye. All rights reserved.</p>
+    </section>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript/project.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>

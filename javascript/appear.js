@@ -1,27 +1,21 @@
-$(function(){  // $(document).ready shorthand
-  $('.monster').fadeIn('slow');
-});
 
-$(document).ready(function() {
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 10) {
+	    $("#nav").css("background" , "#FFF");
+      $("#nav").css("filter" , "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))");
+	  }else{
+		 $("#nav").css("background" , "rgba(219, 227, 205, 0.58)");
+      $("#nav").css("filter" , "none");
+	  }
+    //if(scroll >50){
+      //show(introduction);
+    //}
 
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
+    //if(scroll >600){
+    //  show(overview);
+    //}
 
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-
-                $(this).animate({'opacity':'1'},1500);
-
-            }
-
-        });
-
-    });
-
-});
+  })
+})
