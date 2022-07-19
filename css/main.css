@@ -2,9 +2,9 @@ body{
     margin:0px;
     padding:0px;
     background-color: white;
-
+    font-family: 'Urbanist', sans-serif;
 }
-
+/*font-family: 'Noto Serif JP', serif;*/
 section{
     position:relative;
     display:flex;
@@ -15,7 +15,7 @@ section{
 a{
     text-decoration: none;
     color:white;
-    font-family: 'Noto Serif JP', serif;
+    
   }
 
 a:hover{
@@ -141,6 +141,7 @@ a:hover{
   color:white;
   margin-left: 30px;
   line-height: 2em; 
+  
 }
 .highlight {
   background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #B7CB95 30%);
