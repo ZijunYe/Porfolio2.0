@@ -116,6 +116,11 @@ a:hover{
   float:left;
   display:flex;
 }
+.skill-section{
+  padding-top: 100px;
+  width:1000px;
+  color:white;
+}
 
 @media screen and (max-width: 1000px) {
   .introduction{
@@ -126,7 +131,9 @@ a:hover{
   }
   .nav{
     margin-top: 25px;
-
+  }
+  .skill-section{
+    width: 550px;
   }
 }
 
